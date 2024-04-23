@@ -23,7 +23,7 @@ function CompanyIntro() {
 
     <div className="lg:w-1/2 lg:order-2 flex justify-center items-center lg:p-6 lg:pl-[2rem] lg:pr-[10rem]">
       <img
-        src="../../../public/Image/Abou-us-Video.png"
+        src="../../../src/Image/Abou-us-Video.png"
         alt="Hero"
         className="object-cover w-full lg:w-auto lg:max-w-none h-64 lg:h-auto lg:rounded-lg shadow-lg lg:px-0"
       />

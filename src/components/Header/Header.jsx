@@ -13,8 +13,8 @@ function Header() {
     <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-300 shadow-md"> 
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../../../public/Image/logo short.png" className="h-8 " alt="Hi-tech Logo" />
-          <span><img src="../../../public/Image/Group 14-2.png" className="h-8 w-[6rem]" alt="Logo" /></span>
+          <img src="../../../src/Image/logo short.png" className="h-8 " alt="Hi-tech Logo" />
+          <span><img src="../../../src/Image/Group 14-2.png" className="h-8 w-[6rem]" alt="Logo" /></span>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button

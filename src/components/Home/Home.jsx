@@ -4,6 +4,7 @@ import Services from './Services'
 import CompanyIntro from './CompanyIntro'
 import MeetPeople from './MeetPeople'
 import Testinomials from './Testinomials'
+import Main_case_study from './Main_case_study'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
     <CompanyIntro />
     <MeetPeople />
     <Testinomials />
+    <Main_case_study />
     </>
   )
 }

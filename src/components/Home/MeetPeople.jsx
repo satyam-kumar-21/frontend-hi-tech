@@ -21,52 +21,52 @@ function MeetPeople() {
     {
       id: 1,
       name: "Company A",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../public/Image/demo logo.png",
+      logo: "../../../src/Image/demo logo.png",
     },
   ];
 
