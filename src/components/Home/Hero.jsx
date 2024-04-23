@@ -1,4 +1,5 @@
 import React from "react";
+import hero from "../../../src/Image/Hero-image.png"
 
 function Hero() {
   return (
@@ -20,7 +21,7 @@ function Hero() {
 
       <div className="lg:w-1/2 lg:order-2 flex justify-center items-center lg:p-6 lg:pl-[4rem] lg:pr-[8rem]">
         <img
-          src="../../../src/Image/Hero-image.png"
+          src={hero}
           alt="Hero"
           className="object-cover w-full lg:w-[100%] h-72 lg:h-[100%] lg:max-w-none lg:px-0"
         />

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import com from "../../../src/Image/demo logo.png"
 
 function MeetPeople() {
   const containerRef = useRef(null);
@@ -21,52 +22,52 @@ function MeetPeople() {
     {
       id: 1,
       name: "Company A",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com} ,
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo:{com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo:{com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo:{com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
     {
       id: 2,
       name: "Company B",
-      logo: "../../../src/Image/demo logo.png",
+      logo: {com},
     },
   ];
 

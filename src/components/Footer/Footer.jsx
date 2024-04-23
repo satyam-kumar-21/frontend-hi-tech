@@ -1,6 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+import short from "../../../src/Image/logo short.png"
+import nanelogo from "../../../src/Image/Group 14-2.png"
 
 const Footer = () => {
   return (
@@ -9,8 +11,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between lg:mx-12 mx-4 my-2">
           <div className=" p-4  mb-4 md:mb-0 md:mr-4 space-y-3">
           <span> <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../../../src/Image/logo short.png" className="h-8 " alt="Hi-tech Logo" />
-          <span><img src="../../../src/Image/Group 14-2.png" className="h-8 w-[6rem]" alt="Logo" /></span>
+          <img src={short} className="h-8 " alt="Hi-tech Logo" />
+          <span><img src={nanelogo} className="h-8 w-[6rem]" alt="Logo" /></span>
         </Link></span> <br />
           
             <p className="text-xl">
