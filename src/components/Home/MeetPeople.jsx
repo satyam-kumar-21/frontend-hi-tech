@@ -22,52 +22,52 @@ function MeetPeople() {
     {
       id: 1,
       name: "Company A",
-      logo: {com} ,
+      logo: com ,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo:{com},
+      logo:com,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo:{com},
+      logo:com,
     },
     {
       id: 2,
       name: "Company B",
-      logo:{com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
     {
       id: 2,
       name: "Company B",
-      logo: {com},
+      logo: com,
     },
   ];
 
