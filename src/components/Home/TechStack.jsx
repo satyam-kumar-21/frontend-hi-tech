@@ -66,12 +66,12 @@ function TechStack() {
         <h3 className="font-bold">Tech Stack</h3>
       </div>
 
-      <div className="flex flex-wrap justify-center space-x-4">
+      <div className="flex flex-wrap justify-center space-x-2 md:space-x-4">
         {/* Category buttons */}
         {Object.keys(techStacks).map(category => (
           <button
             key={category}
-            className={`px-2 md:px-4 py-1 md:py-2 rounded-md ${
+            className={`px-2 py-1 md:px-4 md:py-2 rounded-md ${
               selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
             }`}
             onClick={() => setSelectedCategory(category)}
@@ -82,10 +82,10 @@ function TechStack() {
       </div>
 
       {/* Tech stack list */}
-      <div className="grid grid-cols-1 bg-gray-50 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 lg:px-5 py-0">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 mt-4 lg:px-5 py-0">
         {techStacks[selectedCategory].map((tech, index) => (
-          <div key={index} className="lg:p-2 p-0 rounded-md">
-            <img src={tech.logo} alt={tech.name} className="h-16 mx-auto mb-2 object-contain" style={{ maxWidth: '100px' }} />
+          <div key={index} className="p-2 rounded-md">
+            <img src={tech.logo} alt={tech.name} className="h-12 mx-auto mb-2 object-contain" style={{ maxWidth: '80px' }} />
           </div>
         ))}
       </div>
