@@ -7,6 +7,7 @@ import Testinomials from './Testinomials'
 import Main_case_study from './Main_case_study'
 import Main_grate_soft from './Main_grate_soft'
 import DesignApproach from './DesignApproach'
+import TechStack from './TechStack'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
     <Main_case_study />
     <Main_grate_soft />
     <DesignApproach />
+    <TechStack />
     </>
   )
 }
