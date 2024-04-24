@@ -6,24 +6,14 @@ import img3 from "../../../src/Image/Case-study__image 3.png"
 
 const Main_case_study = () => {
     const content = [{
-        img : img1, 
-        heading : "Website Design for SCFC Canada" , 
-        desc : "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-        bg:"graybg"
-    } ,{
         img : img2, 
-        heading : "Website Design for SCFC Canada" , 
-        desc : "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+        heading : "Website Design for Hi-Coding Junction" , 
+        desc : "Hi-Coding Junction is a premier online coding learning platform, offering comprehensive courses in programming languages, software development, and computer science fundamentals. With expert instructors and interactive learning resources, we empower students to master coding skills and pursue rewarding careers in tech",
         bg:"greenbg"
-    } , {
-        img : img3, 
-        heading : "Website Design for SCFC Canada" , 
-        desc : "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry." ,
-        bg : "pinkbg"
-    }]
+    } , ]
   return (
     <>
-    <div className='flex flex-col items-center my-4 bg-gray-50 py-4 border'>
+    <div className='flex flex-col items-center bg-white py-4'>
             <div className='text-xl flex flex-col space-y-2 items-center my-4'>
                 <span className='block  w-12 h-1 bg-blue-700'/>
                 <p >Our Recent</p>
