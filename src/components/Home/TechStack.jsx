@@ -60,18 +60,18 @@ function TechStack() {
 
   return (
     <div>
-      <div className="lg:text-2xl flex flex-col space-y-2 items-center my-4">
+      <div className="text-lg md:text-2xl lg:text-3xl flex flex-col space-y-2 items-center my-4">
         <span className="block w-12 h-1 bg-blue-700" />
         <p>Our</p>
         <h3 className="font-bold">Tech Stack</h3>
       </div>
 
-      <div className="flex  justify-center space-x-4">
+      <div className="flex flex-wrap justify-center space-x-4">
         {/* Category buttons */}
         {Object.keys(techStacks).map(category => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-md ${
+            className={`px-2 md:px-4 py-1 md:py-2 rounded-md ${
               selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
             }`}
             onClick={() => setSelectedCategory(category)}
