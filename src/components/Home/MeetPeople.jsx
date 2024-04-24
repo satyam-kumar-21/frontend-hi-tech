@@ -73,7 +73,7 @@ function MeetPeople() {
 
   return (
     <>
-      <div className="lg:ml-[8%] border-t-4 border-blue-800 w-20 mb-4"></div>
+      <div className="lg:ml-[8%] border-t-4 border-blue-800 w-20 mb-4 ml-[40%]"></div>
       <h3 className="text-2xl lg:text-3xl font- mb-4 text-center lg:text-left py-4 px-2 lg:pl-[8%]">
         Meet the People
         <br />

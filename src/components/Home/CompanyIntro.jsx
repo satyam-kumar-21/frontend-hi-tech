@@ -6,7 +6,7 @@ function CompanyIntro() {
     <div className="flex lg:flex-row lg:pb-24 flex-col-reverse justify-center items-center bg-white  lg:py-24 ">
     {/* Content */}
     <div className="lg:w-1/2 lg:order-1 lg:text-left lg:pl-[5rem] lg:pr-24 mb-8 lg:py-12 py-8 lg:mb-0 px-4">
-    <div className="border-t-4 border-blue-800 w-20 mb-4"></div> {/* Added line */}
+    <div className="border-t-4 border-blue-800 w-20 mb-4 lg:ml-0 ml-[40%]"></div> {/* Added line */}
     <p className="leading-10 text-2xl lg:text-3xl font-bold mb-4 text-center lg:text-left">
       <span className="leading-10">Leading companies trust us </span> <br /> <b className="leading-10">to develop software</b> 
     </p>
