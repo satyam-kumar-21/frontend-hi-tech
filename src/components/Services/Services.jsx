@@ -1,10 +1,12 @@
 import React from 'react'
-import NotFoundPage from '../NotFoundPage'
+import ServiceHero from './ServiceHero'
+import ServiceHero2 from './ServiceHero2'
 
 function Services() {
   return (
     <>
-    <NotFoundPage />
+    <ServiceHero />
+    <ServiceHero2 />
     </>
   )
 }
