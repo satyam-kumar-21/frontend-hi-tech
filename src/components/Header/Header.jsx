@@ -10,12 +10,16 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
     <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-300 shadow-md"> 
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={short}className="h-8 " alt="Hi-tech Logo" />
+          <img src={short} className="h-8 " alt="Hi-tech Logo" />
           <span><img src={namelogo} className="h-8 w-[6rem]" alt="Logo" /></span>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -23,7 +27,7 @@ function Header() {
             type="button"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
           >
-            <Link to="/contact-us">Contact us</Link>
+            <Link to="/contact-us" onClick={closeMenu}>Contact us</Link>
           </button>
           <button
             onClick={toggleMenu}
@@ -39,24 +43,23 @@ function Header() {
         </div>
         <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isMenuOpen ? '' : 'hidden'}`} id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
-          <li>
-          <Link to="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Home</Link>
-        </li>
             <li>
-              <Link to="/about-us" className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0">About us</Link>
+              <Link to="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>Home</Link>
             </li>
             <li>
-              <Link to="/our-services" className="block py-2 px-3 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</Link>
-            </li>
-           
-            <li>
-              <Link to="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Blog</Link>
+              <Link to="/about-us" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>About us</Link>
             </li>
             <li>
-              <Link to="/how-it-works" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">How it Works</Link>
+              <Link to="/our-services" className="block py-2 px-3 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>Services</Link>
             </li>
             <li>
-              <Link to="/career" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Career</Link>
+              <Link to="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>Blog</Link>
+            </li>
+            <li>
+              <Link to="/how-it-works" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>How it Works</Link>
+            </li>
+            <li>
+              <Link to="/career" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" onClick={closeMenu}>Career</Link>
             </li>
           </ul>
         </div>
