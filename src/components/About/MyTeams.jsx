@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 const MyTeams = () => {
   const teamData = [
     {
-      name: "Alper Kamu",
+      name: "Satyam kumar",
       role: "UI Developer",
       bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
       image: "https://dummyimage.com/200x200",
@@ -18,7 +18,7 @@ const MyTeams = () => {
     },
     
     {
-      name: "Holden Caulfield",
+      name: "Satyam kumar",
       role: "UI Developer",
       bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
       image: "https://dummyimage.com/201x201",
@@ -30,7 +30,7 @@ const MyTeams = () => {
       }
     },
     {
-      name: "Atticus Finch",
+      name: "Satyam kumar",
       role: "UI Developer",
       bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
       image: "https://dummyimage.com/202x202",
@@ -42,7 +42,7 @@ const MyTeams = () => {
       }
     },
     {
-      name: "Henry Letham",
+      name: "Satyam kumar",
       role: "UI Developer",
       bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
       image: "https://dummyimage.com/203x203",
