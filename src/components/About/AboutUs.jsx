@@ -1,10 +1,16 @@
 import React from 'react'
-import NotFoundPage from '../NotFoundPage'
+import CompanyOverwiew from './CompanyOverwiew'
+import MyTeams from './MyTeams'
+import AboutMain from './AboutMain'
+import Ceo from './Ceo'
 
 function AboutUs() {
   return (
     <>
-    <NotFoundPage />
+    <AboutMain />
+    <CompanyOverwiew />
+    <Ceo />
+    <MyTeams />
     </>
   )
 }
