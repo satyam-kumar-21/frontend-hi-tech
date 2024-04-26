@@ -23,9 +23,10 @@ const Footer = () => {
           <div className="   p-4 mb-4 md:mb-0 md:mx-4 space-y-2">
             <h3 className="font-bold">Links</h3>
             <ul className="space-y-2">
+            <li><Link to="/">Home</Link></li>
               <li><Link to="/about-us">About Us</Link></li>
               <li><Link to="/our-services">Services</Link></li>
-              <li><Link to="/case-studies">Case Studies</Link></li>
+              
               <li><Link to="/how-it-works">How it works</Link></li>
               <li><Link to="/blog">Blog</Link></li>
               <li><Link to="/career">Careers</Link></li>
