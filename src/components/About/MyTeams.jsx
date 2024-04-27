@@ -1,58 +1,60 @@
 import React from "react";
-import '@fortawesome/fontawesome-free/css/all.css';
-
+import "@fortawesome/fontawesome-free/css/all.css";
+import sandip from "../../../src/Image/about/sandip.jpeg";
+import akshay from "../../../src/Image/about/akshay.jpeg";
+import vandna from "../../../src/Image/about/Vandna.jpg"
 
 const MyTeams = () => {
   const teamData = [
     {
-      name: "Satyam kumar",
-      role: "UI Developer",
-      bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      image: "https://dummyimage.com/200x200",
+      name: "Sandip kr. pandey",
+      role: "Co-founder & Product Designer",
+      bio: "Guiding brand vision and product design as Co-founder & Product Designer, crafting engaging experiences for meaningful connections.",
+      image: sandip,
       social: {
         linkedin: "https://www.linkedin.com/alper-kamu",
         facebook: "https://www.facebook.com/alperkamu",
         instagram: "https://www.instagram.com/alperkamu",
-        twitter: "https://www.twitter.com/alperkamu"
-      }
+        twitter: "https://www.twitter.com/alperkamu",
+      },
     },
-    
+
     {
-      name: "Satyam kumar",
-      role: "UI Developer",
-      bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      image: "https://dummyimage.com/201x201",
+      name: "Hariom Dangi",
+      role: "Full stack developer",
+      bio: "Enhancing digital experiences as a Full Stack Developer, combining front-end and back-end skills for seamless innovation.",
+      image: akshay,
       social: {
-        linkedin: "https://www.linkedin.com/holden-caulfield",
-        facebook: "https://www.facebook.com/holdencaulfield",
-        instagram: "https://www.instagram.com/holdencaulfield",
-        twitter: "https://www.twitter.com/holdencaulfield"
-      }
+        linkedin: "https://www.linkedin.com/in/hariom-dangi-3160a1246/",
+        facebook: "https://www.facebook.com/hariom.dangi.98284566",
+        instagram: "https://www.instagram.com/akshuuu_4u/",
+        twitter: "https://www.twitter.com/",
+      },
     },
     {
-      name: "Satyam kumar",
-      role: "UI Developer",
-      bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      image: "https://dummyimage.com/202x202",
+      name: "Vandna Lodhi",
+      role: "App developer",
+      bio: "Driving app innovation as an App Developer, crafting user-friendly interfaces and robust functionalities for seamless digital experiences.",
+      image: vandna,
       social: {
-        linkedin: "https://www.linkedin.com/atticus-finch",
-        facebook: "https://www.facebook.com/atticusfinch",
-        instagram: "https://www.instagram.com/atticusfinch",
-        twitter: "https://www.twitter.com/atticusfinch"
-      }
+        linkedin: "https://www.linkedin.com/in/vandana-lodhi-a3a9b0285/",
+        facebook: "https://www.facebook.com/",
+        instagram: "https://www.instagram.com/v.lodhi152/",
+        twitter: "https://www.twitter.com/",
+      },
     },
     {
-      name: "Satyam kumar",
-      role: "UI Developer",
+      name: "Comming soon",
+      role: "App developer",
       bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
       image: "https://dummyimage.com/203x203",
       social: {
         linkedin: "https://www.linkedin.com/henry-letham",
         facebook: "https://www.facebook.com/henryletham",
         instagram: "https://www.instagram.com/henryletham",
-        twitter: "https://www.twitter.com/henryletham"
-      }
-    }
+        twitter: "https://www.twitter.com/henryletham",
+      },
+    },
   ];
 
   return (
@@ -63,9 +65,8 @@ const MyTeams = () => {
             OUR TEAM
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            Our diverse team combines expertise in design, development, and
+            strategy, collaborating seamlessly to realize your vision.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -84,16 +85,28 @@ const MyTeams = () => {
                   <h3 className="text-gray-500 mb-3">{member.role}</h3>
                   <p className="mb-4 text-gray-700">{member.bio}</p>
                   <div className="inline-flex">
-                    <a href={member.social.linkedin} className="text-gray-700 mx-2">
+                    <a
+                      href={member.social.linkedin}
+                      className="text-gray-700 mx-2"
+                    >
                       <i className="fab fa-linkedin"></i>
                     </a>
-                    <a href={member.social.facebook} className="text-gray-700 mx-2">
+                    <a
+                      href={member.social.facebook}
+                      className="text-gray-700 mx-2"
+                    >
                       <i className="fab fa-facebook"></i>
                     </a>
-                    <a href={member.social.instagram} className="text-gray-700 mx-2">
+                    <a
+                      href={member.social.instagram}
+                      className="text-gray-700 mx-2"
+                    >
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href={member.social.twitter} className="text-gray-700 mx-2">
+                    <a
+                      href={member.social.twitter}
+                      className="text-gray-700 mx-2"
+                    >
                       <i className="fab fa-twitter"></i>
                     </a>
                   </div>

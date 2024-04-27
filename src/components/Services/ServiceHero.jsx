@@ -4,21 +4,23 @@ import { Link } from "react-router-dom";
 
 function ServiceHero() {
   return (
-    <div className="flex lg:flex-row flex-col justify-center items-center bg-white py-8 lg:pt-20 lg:pb-0 px-6 relative">
+    <div className="flex lg:flex-row flex-col justify-center items-center bg-gray-100 py-8 lg:pt-20 lg:pb-0 px-6 relative">
       {/* Content */}
       <div className="lg:w-1/2 lg:order-1 lg:text-left lg:pl-[5rem] lg:pr-5 mb-8 lg:py-12 py-8 lg:mb-0 px-4">
-      <p className="text-2xl lg:text-3xl font-bold mb-4 text-center lg:text-left">
-      <span className="block lg:inline">WELCOME TO</span>{" "}
-      <span className="text-blue-600 block lg:inline">HI-tech Junction</span>
-    </p>
-    
+        <p className="text-xl lg:text-xl font-bold mb-4 text-center lg:text-left">
+          <span className="block lg:inline">WELCOME TO</span>{" "}
+          <span className="text-blue-600 block lg:inline">
+            HI-tech Junction
+          </span>
+        </p>
+
         <p className="text-2xl lg:text-3xl font-bold mb-4 text-center lg:text-left">
           Smart Company With Perfect <br />
           Digital Experience
         </p>
         <p className="text-lg lg:text-xl text-gray-700 mb-6 text-center lg:text-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-          consectetur adipiscing commodo euismod condimentum nunc.
+          Creating smart companies with flawless digital experiences, ensuring
+          seamless interactions and meaningful connections for every user.
         </p>
         <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none font-bold py-2 px-4 lg:mr-10 rounded-lg block lg:inline-block mx-auto">
           Contact us
