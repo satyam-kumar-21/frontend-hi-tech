@@ -43,18 +43,7 @@ const MyTeams = () => {
         twitter: "https://www.twitter.com/",
       },
     },
-    {
-      name: "Comming soon",
-      role: "App developer",
-      bio: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      image: "https://dummyimage.com/203x203",
-      social: {
-        linkedin: "https://www.linkedin.com/henry-letham",
-        facebook: "https://www.facebook.com/henryletham",
-        instagram: "https://www.instagram.com/henryletham",
-        twitter: "https://www.twitter.com/henryletham",
-      },
-    },
+  
   ];
 
   return (

@@ -16,8 +16,7 @@ const Footer = () => {
         </Link></span> <br />
           
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur <br />
-              adipisicing elit. Velit, facere.
+            Unlock your tech potential with <br/>HiTech Junction: Where innovation meets<br/> excellence, creating solutions <br/>tailored for your success.
             </p>
           </div>
           <div className="   p-4 mb-4 md:mb-0 md:mx-4 space-y-2">
@@ -35,8 +34,7 @@ const Footer = () => {
           <div class="p-4 space-y-3">
             <h3 className="font-bold">Contact Us</h3>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-              Corrupti, reprehenderit.
+            Get in touch with us for inquiries<br/> or assistance.
             </p>
             <p>+91 6203176139</p>
           </div>
@@ -49,16 +47,16 @@ const Footer = () => {
           </div>
           <div className="flex space-x-2">
             <div className="shadow-xl p-1 rounded-full">
-              <Icon icon="ei:sc-facebook" className="size-8" />
+              <a href="https://www.facebook.com/profile.php?id=61557892123937"><Icon icon="ei:sc-facebook" className="size-8" /></a>
             </div>
             <div className="shadow-xl p-1 rounded-full">
-              <Icon icon="ei:sc-twitter" className="size-8" />
+            <a href="#"><Icon icon="ei:sc-twitter" className="size-8" /></a>
             </div>
             <div className="shadow-xl p-1 rounded-full">
-              <Icon icon="ei:sc-instagram" className="size-8" />
+              <a href="#"><Icon icon="ei:sc-instagram" className="size-8" /></a>
             </div>
             <div className="shadow-xl p-1 rounded-full">
-              <Icon icon="ei:sc-linkedin" className="size-8" />
+              <a href="https://www.linkedin.com/company/102397306/admin/feed/posts/"><Icon icon="ei:sc-linkedin" className="size-8" /></a>
             </div>
           </div>
         </div>

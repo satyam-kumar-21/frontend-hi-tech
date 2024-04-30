@@ -1,38 +1,23 @@
 import { useState } from "react"
+import vikash from "../../../src/Image/Testinomials/vikash.png"
+import akshay from "../../../src/Image/about/akshay.jpeg"
 
 const Testinomials =  () => {
 
     const testimonials = [
         {
-            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Martin escobar",
-            title: "Founder of meta",
-            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et."
+            avatar: vikash,
+            name: "Vikash singh",
+            title: "Founder of Fluent Vikash",
+            quote: "Hi-tech Junction exceeded all my expectations. Seamless integration, impeccable reliability, and truly essential for our daily operations."
         },
         {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Angela stian",
-            title: "Product designer",
-            quote: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout, that the point of using Lorem Ipsum."
+            avatar: akshay,
+            name: "Akshay dangi",
+            title: "Software developer",
+            quote: "Hi-tech Junction is a fantastic company! Their software solutions are top-notch, reliable, and essential for our business success."
         },
-        {
-            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-            name: "Karim ahmed",
-            title: "DevOp engineer",
-            quote: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati "
-        },
-        {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Angela stian",
-            title: "Product designer",
-            quote: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout, that the point of using Lorem Ipsum."
-        },
-        {
-            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Martin escobar",
-            title: "Founder of meta",
-            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et."
-        },
+        
     ]
 
     const [currentTestimonial, setCurrentTestimonial] = useState(0)
