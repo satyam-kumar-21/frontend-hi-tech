@@ -28,7 +28,7 @@ function ServiceHero() {
       </div>
 
       {/* Circular Background */}
-      <div className="absolute bg-blue-500 rounded-full w-60 h-60 lg:w-96 lg:h-96 -top-24 lg:-top-100 lg:ml-[600px] lg:mt-[45vh] mt-[64vh]"></div>
+      <div className="absolute bg-blue-500 rounded-full w-60 h-60 lg:w-96 lg:h-96 -top-24 lg:-top-100 lg:ml-[600px] lg:mt-[45vh] mt-[68vh]"></div>
 
       {/* Image */}
       <div className="lg:w-1/2 lg:order-2 flex justify-center items-center lg:p-6 lg:pl-[4rem] lg:pr-[8rem] relative">
