@@ -1,27 +1,39 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
+import pankaj from "../../../src/Image/about/pankaj.jpeg";
 import sandip from "../../../src/Image/about/sandip.jpeg";
 import akshay from "../../../src/Image/about/akshay.jpeg";
-import vandna from "../../../src/Image/about/Vandna.jpg"
+import vandna from "../../../src/Image/about/Vandna.jpg";
 
 const MyTeams = () => {
   const teamData = [
     {
-      name: "Sandip kr. pandey",
-      role: "Co-founder & Product Designer",
-      bio: "Guiding brand vision and product design as Co-founder & Product Designer, crafting engaging experiences for meaningful connections.",
-      image: sandip,
+      name: "Pankaj Kumar",
+      role: "Co-Founder",
+      bio: "Leading the strategic direction of Hi-tech Junction as Co-Founder, driving innovation and overseeing business operations to achieve growth and success.",
+      image: pankaj,
       social: {
-        linkedin: "https://www.linkedin.com/alper-kamu",
-        facebook: "https://www.facebook.com/alperkamu",
-        instagram: "https://www.instagram.com/alperkamu",
-        twitter: "https://www.twitter.com/alperkamu",
+        linkedin: "https://www.linkedin.com/in/pankaj-kumar/",
+        facebook: "https://www.facebook.com/pankajkumar",
+        instagram: "https://www.instagram.com/pankaj_kumar_/",
+        twitter: "https://www.twitter.com/pankaj_kumar",
       },
     },
-
+    {
+      name: "Sandip Kr. Pandey",
+      role: "Product Designer",
+      bio: "Designing impactful digital experiences, leading product design initiatives, and shaping the future of Hi-tech Junction’s design strategy.",
+      image: sandip,
+      social: {
+        linkedin: "https://www.linkedin.com/in/sandip-kr-pandey/",
+        facebook: "https://www.facebook.com/sandipkrpandey",
+        instagram: "https://www.instagram.com/sandip_kr_pandey/",
+        twitter: "https://www.twitter.com/sandipkrpandey",
+      },
+    },
     {
       name: "Hariom Dangi",
-      role: "Full stack developer",
+      role: "Full Stack Developer",
       bio: "Enhancing digital experiences as a Full Stack Developer, combining front-end and back-end skills for seamless innovation.",
       image: akshay,
       social: {
@@ -33,7 +45,7 @@ const MyTeams = () => {
     },
     {
       name: "Vandna Lodhi",
-      role: "App developer",
+      role: "App Developer",
       bio: "Driving app innovation as an App Developer, crafting user-friendly interfaces and robust functionalities for seamless digital experiences.",
       image: vandna,
       social: {
@@ -43,7 +55,6 @@ const MyTeams = () => {
         twitter: "https://www.twitter.com/",
       },
     },
-  
   ];
 
   return (
@@ -54,8 +65,7 @@ const MyTeams = () => {
             OUR TEAM
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">
-            Our diverse team combines expertise in design, development, and
-            strategy, collaborating seamlessly to realize your vision.
+            Our diverse team combines expertise in design, development, and strategy, collaborating seamlessly to realize your vision.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

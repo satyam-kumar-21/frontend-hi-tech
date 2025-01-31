@@ -9,11 +9,14 @@ import Blog from './components/Blog/Blog';
 import HowWorks from './components/HowItWorks/HowWorks';
 import Career from './components/Career/Career';
 import ContactUs from './components/Contact/ContactUs';
+import ScrollTop from './ScrollTop';
 
 function App() {
   return (
     <Router> 
       <Header />
+
+      <ScrollTop />
 
       <Routes>
       <Route path="/" element={<Home />} />

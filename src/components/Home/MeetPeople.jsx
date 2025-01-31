@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import com from "../../../src/Image/demo logo.png"
+import com from "../../../src/Image/orderkrlo.png"
 
 function MeetPeople() {
   const containerRef = useRef(null);
